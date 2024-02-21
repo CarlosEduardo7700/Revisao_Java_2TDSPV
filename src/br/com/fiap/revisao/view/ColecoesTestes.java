@@ -1,3 +1,5 @@
+package br.com.fiap.revisao.view;
+
 import java.util.*;
 
 public class ColecoesTestes {

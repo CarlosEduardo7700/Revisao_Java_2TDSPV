@@ -1,3 +1,5 @@
+package br.com.fiap.revisao.view;
+
 import br.com.fiap.revisao.model.Calcado;
 import br.com.fiap.revisao.model.Produto;
 

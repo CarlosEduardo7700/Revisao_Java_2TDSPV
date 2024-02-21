@@ -34,5 +34,15 @@ public class Main {
         System.out.println("Nome: " + calcado.getNome());
         System.out.println("Preço: " + calcado.getPreco());
         System.out.println("Tamanho: " + calcado.getTamanho());
+
+        // Operador Ternário
+        // Condição ? se for verdadeiro : se for falso;
+        // Se o valor do produto for maior do que 100, dizer que está caro, se não for dizer que está barato
+        if (produto.getPreco() > 100)
+            System.out.println("O produto está caro!");
+        else
+            System.out.println("O produto está barato!");
+
+        System.out.println(produto.getPreco() > 100 ? "O produto está caro!" : "O produto está barato!");
     }
 }

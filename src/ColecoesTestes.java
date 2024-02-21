@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class ColecoesTestes {
 
@@ -29,5 +26,13 @@ public class ColecoesTestes {
         cores.forEach(System.out::println);
 
         //MAPS
+        Map<String, String> estadosBrasileiros = new HashMap<>();
+
+        estadosBrasileiros.put("SP", "São Paulo");
+        estadosBrasileiros.put("RJ", "Rio de Janeiro");
+        estadosBrasileiros.put("MG", "Minas Gerais");
+
+        System.out.println("\nMap de estados:");
+        System.out.println(estadosBrasileiros);;
     }
 }

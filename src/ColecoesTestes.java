@@ -33,6 +33,9 @@ public class ColecoesTestes {
         estadosBrasileiros.put("MG", "Minas Gerais");
 
         System.out.println("\nMap de estados:");
-        System.out.println(estadosBrasileiros);;
+        estadosBrasileiros.keySet().forEach(key -> System.out.println("Sigla: " + key + " | Nome: " + estadosBrasileiros.get(key)));
+
+        System.out.println("\nRecuperando unicamente o Rio de Janeiro:");
+        System.out.println(estadosBrasileiros.get("RJ"));
     }
 }

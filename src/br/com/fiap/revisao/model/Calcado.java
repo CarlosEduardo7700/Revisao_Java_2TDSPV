@@ -3,6 +3,7 @@ package br.com.fiap.revisao.model;
 public class Calcado extends Produto {
 
     private Float tamanho;
+    private TipoCalcado tipo;
 
 
     public Calcado() {}
@@ -28,4 +29,11 @@ public class Calcado extends Produto {
         return tamanho;
     }
 
+    public TipoCalcado getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(TipoCalcado tipo) {
+        this.tipo = tipo;
+    }
 }

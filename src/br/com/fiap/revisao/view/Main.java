@@ -2,6 +2,7 @@ package br.com.fiap.revisao.view;
 
 import br.com.fiap.revisao.model.Calcado;
 import br.com.fiap.revisao.model.Produto;
+import br.com.fiap.revisao.model.TipoCalcado;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
@@ -36,6 +37,16 @@ public class Main {
         System.out.println("Nome: " + calcado.getNome());
         System.out.println("Preço: " + calcado.getPreco());
         System.out.println("Tamanho: " + calcado.getTamanho());
+
+        // Trabalhando com ENUMs
+        calcado.setTipo(TipoCalcado.TENIS);
+
+        if (calcado.getTipo() == TipoCalcado.TENIS) {
+            System.out.println("É um tênis!");
+        } else {
+            System.out.println("Não é um tênis!");
+        }
+
 
         // Operador Ternário
         // Condição ? se for verdadeiro : se for falso;
